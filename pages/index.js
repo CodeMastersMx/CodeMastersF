@@ -317,7 +317,7 @@ const Home = () => {
                                 </h1>
                             </a>
                             <br />
-
+{/* 
                             <h1 className="text-2xl  text-white">
                                 Url del archivo que quieres subir:
                             </h1>
@@ -335,17 +335,17 @@ const Home = () => {
                                 }}
                             >
                                 Subir archivo a IPFS
-                            </button>
-
+                            </button> */}
+{/* 
                             <br />
 
                             <p className="text-white font-bold mb-8">
                                 {statusText}
                             </p>
 
-                            <br />
+                            <br /> */}
 
-                            {uploadUrl ? (
+                            {/* {uploadUrl ? (
                                 <button
                                     className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
                                     onClick={() => {
@@ -365,9 +365,9 @@ const Home = () => {
                                 >
                                     Primer sube una imagen a IPFS ⚠
                                 </button>
-                            )}
+                            )} */}
 
-                            <br />
+                            {/* <br /> */}
                             <button
                                 type="submit"
                                 className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
