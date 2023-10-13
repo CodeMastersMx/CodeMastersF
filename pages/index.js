@@ -260,8 +260,8 @@ const Home = () => {
     };
 
     return (
-        <div className="h-screen bg-black">
-            <div className="flex flex-col  w-auto h-auto  bg-black">
+        <div className="h-screen bg-white">
+            <div className="flex flex-col  w-auto h-auto  bg-white">
                 <div className="flex flex-col py-24 place-items-center justify-center">
                     <h1 className="text-5xl font-bold pb-10 text-emerald-300">
                         Superteach Starter
@@ -271,13 +271,13 @@ const Home = () => {
                         <div className="flex flex-col py-24 place-items-center justify-center">
                             <br />
 
-                            <h1 className="text-2xl font-bold text-white">
+                            <h1 className="text-2xl font-bold text-black">
                                 Tu numero de Wallet es {publicKey}
                             </h1>
 
                             <br />
 
-                            <h1 className="text-2xl font-bold text-white">
+                            <h1 className="text-2xl font-bold text-black">
                                 Tu balance es {balance} SOL
                             </h1>
                             <br />
@@ -286,23 +286,23 @@ const Home = () => {
                             </h1>
 
                             <input
-                                className="h-8 w-72 mt-4   border-2 border-black "
+                                className="h-8 w-72 mt-4   border-2 border-Black "
                                 type="text"
                                 onChange={handleReceiverChange}
                             />
                             <br />
-                            <h1 className="text-2xl  text-white">
+                            <h1 className="text-2xl  text-Black">
                                 Cantidad de SOL a enviar:
                             </h1>
                             <input
-                                className="h-8 w-72 mt-4   border-2 border-black "
+                                className="h-8 w-72 mt-4   border-2 border-Black "
                                 type="text"
                                 onChange={handleAmountChange}
                             />
                             <br />
                             <button
                                 type="submit"
-                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
+                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-Black"
                                 onClick={() => {
                                     handleSubmit();
                                 }}
@@ -370,7 +370,7 @@ const Home = () => {
                             {/* <br /> */}
                             <button
                                 type="submit"
-                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
+                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-Black"
                                 onClick={() => {
                                     signOut();
                                 }}
@@ -382,7 +382,7 @@ const Home = () => {
                         <div className="flex flex-col place-items-center justify-center">
                             <button
                                 type="submit"
-                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
+                                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-Black"
                                 onClick={() => {
                                     signIn();
                                 }}
