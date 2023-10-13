@@ -373,9 +373,10 @@ const Home = () => {
     </svg>
     <p class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">4.95 out of 5</p>
 </div>
-
+<hr></hr>
 
 <p class="my-4 text-lg text-gray-500">Excel es una aplicación de hoja de cálculo desarrollada por Microsoft que permite a los usuarios crear, organizar y analizar datos en forma de tablas. </p>
+
 
 <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Shift</kbd>
 <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Ctrl</kbd>
@@ -385,6 +386,23 @@ const Home = () => {
 <kbd class="px-4 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Spacebar</kbd>
 <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Enter</kbd>
 
+<hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+
+<p class="my-4 text-lg text-gray-500">Se utiliza comúnmente para realizar cálculos, crear gráficos, llevar un registro de información financiera, realizar análisis de datos y automatizar tareas relacionadas con números y datos. Excel es una herramienta versátil ampliamente utilizada en entornos comerciales y académicos para gestionar y procesar información numérica. </p>
+
+
+<h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements:</h2>
+<ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+    <li>
+        At least 10 characters (and up to 100 characters)
+    </li>
+    <li>
+        At least one lowercase character
+    </li>
+    <li>
+        Inclusion of at least one special character, e.g., ! @ # ?
+    </li>
+</ul>
 
 
 
